@@ -7,6 +7,8 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { BigPostComponent } from './components/big-post/big-post.component';
 import { SmallPostComponent } from './components/small-post/small-post.component';
 import { MainSectionComponent } from './components/main-section/main-section.component';
+import { HomeComponent } from './pages/home/home.component';
+import { PostTagsComponent } from './components/post-tags/post-tags.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MainSectionComponent } from './components/main-section/main-section.com
     MenuBarComponent,
     BigPostComponent,
     SmallPostComponent,
-    MainSectionComponent
+    MainSectionComponent,
+    HomeComponent,
+    PostTagsComponent
   ],
   imports: [
     BrowserModule,
